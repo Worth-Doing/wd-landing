@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy | Worth Doing</title>
+  <meta name="description" content="Worth Doing — Privacy Policy for all applications and services.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%236366f1'/><text x='50' y='68' font-size='50' text-anchor='middle' fill='white' font-weight='bold'>W</text></svg>">
+  <style>
+    .legal-content { max-width: 760px; margin: 0 auto; }
+    .legal-content h2 { font-size: 1.3rem; font-weight: 700; margin-top: 2.5rem; margin-bottom: 0.75rem; letter-spacing: -0.02em; }
+    .legal-content h3 { font-size: 1.05rem; font-weight: 700; margin-top: 1.5rem; margin-bottom: 0.5rem; }
+    .legal-content p, .legal-content li { font-size: 0.95rem; color: var(--text-secondary); line-height: 1.8; margin-bottom: 0.75rem; }
+    .legal-content ul { padding-left: 1.5rem; margin-bottom: 1rem; }
+    .legal-content li { margin-bottom: 0.4rem; }
+    .legal-content a { color: var(--accent); text-decoration: none; }
+    .legal-content a:hover { text-decoration: underline; }
+    .legal-date { font-size: 0.85rem; color: var(--text-tertiary); margin-bottom: 2rem; }
+    .legal-table { width: 100%; border-collapse: collapse; margin: 1rem 0 1.5rem; }
+    .legal-table th, .legal-table td { text-align: left; padding: 0.75rem 1rem; font-size: 0.9rem; border-bottom: 1px solid var(--border-glass); }
+    .legal-table th { font-weight: 700; color: var(--text-primary); }
+    .legal-table td { color: var(--text-secondary); }
+  </style>
+</head>
+<body>
+  <div class="bg-grid"></div>
+  <div class="bg-glow bg-glow-1"></div>
+  <div class="bg-glow bg-glow-2"></div>
+
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="../index.html" class="nav-logo">
+        <img src="https://raw.githubusercontent.com/Worth-Doing/brand-assets/main/png/variants/03-icon-only.png" alt="WD" style="width: 32px; height: 32px; border-radius: 8px;">
+        Worth Doing
+      </a>
+      <div class="nav-links">
+        <a href="../index.html#apps">Apps</a>
+        <a href="../index.html#projects">Projects</a>
+        <a href="https://github.com/Worth-Doing" target="_blank">GitHub</a>
+      </div>
+      <button class="nav-toggle" aria-label="Menu">
+        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
+      </button>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="breadcrumb">
+      <a href="../index.html">Home</a>
+      <span class="breadcrumb-sep">/</span>
+      <span>Privacy Policy</span>
+    </div>
+  </div>
+
+  <section class="section" style="padding-top: 2rem;">
+    <div class="container">
+      <div class="legal-content">
+        <h1>Privacy Policy</h1>
+        <p class="legal-date">Effective Date: April 16, 2026</p>
+
+        <p>This Privacy Policy describes how Worth Doing ("we", "us", "our"), operated by Simon-Pierre Boucher, collects, uses, and protects information when you use our applications, websites, and services.</p>
+
+        <h2>1. Our Philosophy</h2>
+        <p>Worth Doing applications are designed with a <strong>local-first, privacy-respecting</strong> approach. We believe your data belongs to you. Our applications process data locally on your device whenever possible, and we minimize data collection to the absolute essentials.</p>
+
+        <h2>2. Information We Do Not Collect</h2>
+        <p>Our desktop applications do <strong>not</strong>:</p>
+        <ul>
+          <li>Collect personal information</li>
+          <li>Track your usage or behavior</li>
+          <li>Include analytics, telemetry, or crash reporting services</li>
+          <li>Send data to our servers</li>
+          <li>Use cookies or tracking pixels</li>
+          <li>Require user accounts or registration</li>
+          <li>Share data with third parties for advertising</li>
+        </ul>
+
+        <h2>3. Data Storage</h2>
+        <p>All application data is stored <strong>locally on your Mac</strong>, typically in:</p>
+        <ul>
+          <li><code>~/Library/Application Support/[AppName]/</code> — application data and settings</li>
+          <li><strong>macOS Keychain</strong> — API keys and sensitive credentials (encrypted by the OS)</li>
+          <li><strong>UserDefaults</strong> — application preferences</li>
+        </ul>
+        <p>No data is synced to cloud services or external servers by our applications. You have full control over your data and can delete it at any time by removing the application and its support files.</p>
+
+        <h2>4. Third-Party API Communication</h2>
+        <p>Some applications communicate with third-party APIs when you explicitly configure them:</p>
+
+        <table class="legal-table">
+          <thead>
+            <tr><th>Application</th><th>Third-Party Service</th><th>Data Sent</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Foundry</td><td>Anthropic (Claude)</td><td>Session data, prompts (via Claude Code CLI)</td></tr>
+            <tr><td>Aether</td><td>Serper, Firecrawl, Exa, Tavily</td><td>Search queries</td></tr>
+            <tr><td>Terminus</td><td>OpenRouter</td><td>Command queries for AI suggestions</td></tr>
+            <tr><td>CoreLM</td><td>Hugging Face, Ollama</td><td>Model download requests</td></tr>
+            <tr><td>Claw Studio</td><td>OpenClaw / various AI providers</td><td>Agent prompts and messages</td></tr>
+            <tr><td>OpenRouter Playground</td><td>OpenRouter</td><td>Chat messages, model parameters</td></tr>
+            <tr><td>Brain OS</td><td>OpenRouter</td><td>Task descriptions for planning</td></tr>
+          </tbody>
+        </table>
+
+        <p><strong>Important:</strong> These communications occur only when you provide your own API keys and actively use AI features. The data is sent directly from your device to the third-party service — it does not pass through our servers. Please review each provider's privacy policy for their data handling practices.</p>
+
+        <h2>5. Applications That Do Not Communicate Externally</h2>
+        <p>The following applications operate <strong>entirely offline</strong> with zero network communication:</p>
+        <ul>
+          <li><strong>PulseDesk</strong> — system monitoring (reads local system data only)</li>
+          <li><strong>GridForge</strong> — spreadsheet engine (local file operations only)</li>
+          <li><strong>FlowBoard</strong> — kanban boards (local storage only)</li>
+          <li><strong>DropVault</strong> — clipboard manager (local storage only)</li>
+          <li><strong>OSVault</strong> — password vault (local encrypted storage only)</li>
+        </ul>
+
+        <h2>6. Website</h2>
+        <p>Our website (<a href="https://worth-doing.github.io/wd-landing">worth-doing.github.io/wd-landing</a>) is a static HTML site hosted on GitHub Pages. We do not use:</p>
+        <ul>
+          <li>Analytics services (no Google Analytics, no Plausible, etc.)</li>
+          <li>Cookies or local storage for tracking</li>
+          <li>Third-party scripts beyond Google Fonts</li>
+        </ul>
+        <p>GitHub Pages may collect standard server logs (IP addresses, browser user agent) as part of their hosting service. See <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement" target="_blank">GitHub's Privacy Statement</a> for details.</p>
+
+        <h2>7. Encryption and Security</h2>
+        <p>Where applications handle sensitive data:</p>
+        <ul>
+          <li><strong>OSVault</strong> uses AES-256-GCM encryption with PBKDF2-SHA256 key derivation (600,000 iterations) for all stored credentials</li>
+          <li>API keys are stored in the <strong>macOS Keychain</strong>, protected by the operating system's security infrastructure</li>
+          <li>All applications use <strong>Hardened Runtime</strong> and are notarized by Apple</li>
+        </ul>
+
+        <h2>8. Children's Privacy</h2>
+        <p>Our applications and services are not directed to children under 13 years of age. We do not knowingly collect personal information from children.</p>
+
+        <h2>9. Your Rights</h2>
+        <p>Since our applications store data locally on your device, you have full control:</p>
+        <ul>
+          <li><strong>Access:</strong> All data is on your Mac in accessible locations</li>
+          <li><strong>Deletion:</strong> Remove the app and its Application Support folder to delete all data</li>
+          <li><strong>Portability:</strong> Applications with export features let you export your data in standard formats (JSON, CSV, XLSX)</li>
+        </ul>
+
+        <h2>10. Changes to This Policy</h2>
+        <p>We may update this Privacy Policy from time to time. Changes will be posted on this page with an updated effective date. We encourage you to review this page periodically.</p>
+
+        <h2>11. Contact</h2>
+        <p>For privacy-related questions or concerns, please contact:</p>
+        <ul>
+          <li><strong>Name:</strong> Simon-Pierre Boucher</li>
+          <li><strong>Email:</strong> <a href="mailto:admin@worthdoing.ai">admin@worthdoing.ai</a></li>
+          <li><strong>GitHub:</strong> <a href="https://github.com/Worth-Doing" target="_blank">github.com/Worth-Doing</a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-left">
+          <div class="footer-logo">W</div>
+          <span class="footer-text">&copy; 2026 Worth Doing. All rights reserved.</span>
+        </div>
+        <div class="footer-links">
+          <a href="terms.html">Terms</a>
+          <a href="privacy.html">Privacy</a>
+          <a href="contact.html">Contact</a>
+          <a href="https://github.com/Worth-Doing" target="_blank">GitHub</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../js/main.js"></script>
+</body>
+</html>

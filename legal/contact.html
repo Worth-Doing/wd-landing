@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Worth Doing</title>
+  <meta name="description" content="Worth Doing — Contact us for support, questions, or partnerships.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%236366f1'/><text x='50' y='68' font-size='50' text-anchor='middle' fill='white' font-weight='bold'>W</text></svg>">
+  <style>
+    .contact-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem; margin-top: 2rem; }
+    .contact-card { background: var(--bg-glass); border: 1px solid var(--border-glass); border-radius: var(--radius-lg); padding: 2rem; text-align: center; box-shadow: 0 1px 3px rgba(0,0,0,0.04), 0 4px 20px rgba(0,0,0,0.03); transition: var(--transition); }
+    .contact-card:hover { border-color: var(--border-glass-hover); transform: translateY(-2px); box-shadow: 0 8px 40px rgba(0,0,0,0.08); }
+    .contact-card-icon { width: 56px; height: 56px; border-radius: var(--radius-md); display: flex; align-items: center; justify-content: center; font-size: 1.5rem; margin: 0 auto 1rem; }
+    .contact-card h3 { font-size: 1.1rem; font-weight: 700; margin-bottom: 0.5rem; }
+    .contact-card p { font-size: 0.9rem; color: var(--text-secondary); line-height: 1.6; margin-bottom: 1rem; }
+    .contact-card a.contact-link { display: inline-flex; align-items: center; gap: 6px; color: var(--accent); font-weight: 600; font-size: 0.9rem; text-decoration: none; transition: var(--transition); }
+    .contact-card a.contact-link:hover { gap: 10px; }
+    .contact-info { max-width: 600px; margin: 3rem auto 0; text-align: center; }
+    .contact-info h2 { font-size: 1.3rem; font-weight: 700; margin-bottom: 1rem; }
+    .contact-info p { font-size: 0.95rem; color: var(--text-secondary); line-height: 1.7; }
+    .contact-name { font-size: 1.1rem; font-weight: 700; margin-bottom: 0.5rem; }
+    .contact-role { font-size: 0.85rem; color: var(--text-tertiary); margin-bottom: 1.5rem; }
+  </style>
+</head>
+<body>
+  <div class="bg-grid"></div>
+  <div class="bg-glow bg-glow-1"></div>
+  <div class="bg-glow bg-glow-2"></div>
+
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="../index.html" class="nav-logo">
+        <img src="https://raw.githubusercontent.com/Worth-Doing/brand-assets/main/png/variants/03-icon-only.png" alt="WD" style="width: 32px; height: 32px; border-radius: 8px;">
+        Worth Doing
+      </a>
+      <div class="nav-links">
+        <a href="../index.html#apps">Apps</a>
+        <a href="../index.html#projects">Projects</a>
+        <a href="https://github.com/Worth-Doing" target="_blank">GitHub</a>
+      </div>
+      <button class="nav-toggle" aria-label="Menu">
+        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
+      </button>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="breadcrumb">
+      <a href="../index.html">Home</a>
+      <span class="breadcrumb-sep">/</span>
+      <span>Contact</span>
+    </div>
+  </div>
+
+  <section class="section" style="padding-top: 2rem;">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-label">&#9679; Get in Touch</div>
+        <h2>Contact</h2>
+        <p>Have a question, found a bug, or want to collaborate? Reach out through any of the channels below.</p>
+      </div>
+
+      <div style="text-align: center; margin-bottom: 2rem;">
+        <div class="contact-name">Simon-Pierre Boucher</div>
+        <div class="contact-role">Founder & Developer, Worth Doing</div>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-card">
+          <div class="contact-card-icon" style="background: rgba(99, 102, 241, 0.1); color: #6366f1;">&#9993;</div>
+          <h3>Email</h3>
+          <p>For general inquiries, support, partnerships, or privacy-related questions.</p>
+          <a href="mailto:admin@worthdoing.ai" class="contact-link">admin@worthdoing.ai &#8594;</a>
+        </div>
+
+        <div class="contact-card">
+          <div class="contact-card-icon" style="background: rgba(37, 99, 235, 0.1); color: #2563eb;">&#128187;</div>
+          <h3>GitHub</h3>
+          <p>Report bugs, request features, or contribute to any Worth Doing project.</p>
+          <a href="https://github.com/Worth-Doing" target="_blank" class="contact-link">github.com/Worth-Doing &#8594;</a>
+        </div>
+
+        <div class="contact-card">
+          <div class="contact-card-icon" style="background: rgba(234, 88, 12, 0.1); color: #ea580c;">&#128027;</div>
+          <h3>Bug Reports</h3>
+          <p>Found a bug? Open an issue on the relevant app's GitHub repository.</p>
+          <a href="https://github.com/Worth-Doing" target="_blank" class="contact-link">Open an Issue &#8594;</a>
+        </div>
+      </div>
+
+      <div class="contact-info">
+        <h2>Response Time</h2>
+        <p>We aim to respond to all inquiries within 48 hours during business days. For bug reports filed via GitHub Issues, you can track progress directly on the issue page.</p>
+      </div>
+
+      <div class="contact-info" style="margin-top: 2rem;">
+        <h2>Links</h2>
+        <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; margin-top: 1rem;">
+          <a href="https://github.com/Worth-Doing" target="_blank" class="btn btn-glass">GitHub</a>
+          <a href="https://huggingface.co/worthdoing" target="_blank" class="btn btn-glass">Hugging Face</a>
+          <a href="https://worthdoing.ai" target="_blank" class="btn btn-glass">worthdoing.ai</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-left">
+          <div class="footer-logo">W</div>
+          <span class="footer-text">&copy; 2026 Worth Doing. All rights reserved.</span>
+        </div>
+        <div class="footer-links">
+          <a href="terms.html">Terms</a>
+          <a href="privacy.html">Privacy</a>
+          <a href="contact.html">Contact</a>
+          <a href="https://github.com/Worth-Doing" target="_blank">GitHub</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../js/main.js"></script>
+</body>
+</html>
