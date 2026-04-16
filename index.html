@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Worth Doing — Native macOS Apps & Developer Tools</title>
+  <meta name="description" content="Premium native macOS applications built with Swift & SwiftUI. Browse, download, and explore the full Worth Doing suite.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%236366f1'/><text x='50' y='68' font-size='50' text-anchor='middle' fill='white' font-weight='bold'>W</text></svg>">
+</head>
+<body>
+
+  <!-- Background -->
+  <div class="bg-grid"></div>
+  <div class="bg-glow bg-glow-1"></div>
+  <div class="bg-glow bg-glow-2"></div>
+
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">
+        <img src="https://raw.githubusercontent.com/Worth-Doing/brand-assets/main/png/variants/03-icon-only.png" alt="WD" style="width: 32px; height: 32px; border-radius: 8px;">
+        Worth Doing
+      </a>
+      <div class="nav-links">
+        <a href="#apps" class="active">Apps</a>
+        <a href="#projects">Projects</a>
+        <a href="https://github.com/Worth-Doing" target="_blank">GitHub</a>
+      </div>
+      <button class="nav-toggle" aria-label="Menu">
+        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-badge fade-in fade-in-1">
+          <span class="hero-badge-dot"></span>
+          10 native macOS apps — all free & open source
+        </div>
+        <h1 class="fade-in fade-in-2">
+          Software<br><span class="gradient">Worth Doing</span>
+        </h1>
+        <p class="fade-in fade-in-3">
+          Premium native macOS applications built entirely in Swift & SwiftUI. No Electron. No WebViews. Signed and notarized by Apple.
+        </p>
+        <div class="hero-actions fade-in fade-in-4">
+          <a href="#apps" class="btn btn-primary">Browse Apps ↓</a>
+          <a href="https://github.com/Worth-Doing" target="_blank" class="btn btn-glass">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+            GitHub
+          </a>
+        </div>
+        <div class="stats-bar fade-in fade-in-5">
+          <div class="stat">
+            <div class="stat-value">10</div>
+            <div class="stat-label">macOS Apps</div>
+          </div>
+          <div class="stat">
+            <div class="stat-value">100%</div>
+            <div class="stat-label">Native Swift</div>
+          </div>
+          <div class="stat">
+            <div class="stat-value">21</div>
+            <div class="stat-label">Repositories</div>
+          </div>
+          <div class="stat">
+            <div class="stat-value">0</div>
+            <div class="stat-label">Dependencies</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- macOS Apps -->
+  <section class="section" id="apps">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-label">&#9679; Native Applications</div>
+        <h2>macOS Apps</h2>
+        <p>Every app is built with Swift & SwiftUI, signed with Apple Developer ID, and notarized. Download the DMG, drag to Applications, done.</p>
+      </div>
+
+      <div class="apps-grid">
+
+        <!-- Foundry -->
+        <a href="apps/foundry.html" class="app-card">
+          <div class="app-card-header">
+            <img src="https://raw.githubusercontent.com/Worth-Doing/foundry/main/Resources/foundry-logo.svg" alt="Foundry" class="app-icon-img">
+            <div>
+              <div class="app-card-title">Foundry</div>
+              <div class="app-card-version">v4.0.0</div>
+            </div>
+          </div>
+          <div class="app-card-desc">The native Claude Code interface for macOS. Session timeline, usage analytics, skills browser, agents management, and MCP server configuration.</div>
+          <div class="app-card-tags">
+            <span class="tag">Claude Code</span>
+            <span class="tag">AI</span>
+            <span class="tag">IDE</span>
+          </div>
+          <div class="app-card-footer">
+            <span class="app-card-link">Learn more &#8594;</span>
+            <span class="app-card-platform">&#63743; macOS 14+</span>
+          </div>
+        </a>
+
+        <!-- Aether -->
+        <a href="apps/aether.html" class="app-card">
+          <div class="app-card-header">
+            <img src="https://raw.githubusercontent.com/Worth-Doing/aether/main/assets/logo.svg" alt="Aether" class="app-icon-img">
+            <div>
+              <div class="app-card-title">Aether</div>
+              <div class="app-card-version">v1.0.0</div>
+            </div>
+          </div>
+          <div class="app-card-desc">A next-generation cognitive browser. AI-powered search with 4 providers, reading mode, multi-panel workspaces, and semantic page analysis.</div>
+          <div class="app-card-tags">
+            <span class="tag">Browser</span>
+            <span class="tag">AI Search</span>
+            <span class="tag">Workspace</span>
+          </div>
+          <div class="app-card-footer">
+            <span class="app-card-link">Learn more &#8594;</span>
+            <span class="app-card-platform">&#63743; macOS 14+</span>
+          </div>
+        </a>
+
+        <!-- Terminus -->
+        <a href="apps/terminus.html" class="app-card">
+          <div class="app-card-header">
+            <img src="https://raw.githubusercontent.com/Worth-Doing/terminus/main/Resources/AppIcon.svg" alt="Terminus" class="app-icon-img">
+            <div>
+              <div class="app-card-title">Terminus</div>
+              <div class="app-card-version">v0.3.0</div>
+            </div>
+          </div>
+          <div class="app-card-desc">The intelligent terminal for the post-LLM era. Natural language commands, multi-panel workspace, command safety analysis, and learning-based predictions.</div>
+          <div class="app-card-tags">
+            <span class="tag">Terminal</span>
+            <span class="tag">AI</span>
+            <span class="tag">Shell</span>
+          </div>
+          <div class="app-card-footer">
+            <span class="app-card-link">Learn more &#8594;</span>
+            <span class="app-card-platform">&#63743; macOS 14+</span>
+          </div>
+        </a>
+
+        <!-- CoreLM -->
+        <a href="apps/corelm.html" class="app-card">
+          <div class="app-card-header">
+            <img src="https://raw.githubusercontent.com/Worth-Doing/CoreLM/main/Resources/AppIcon.svg" alt="CoreLM" class="app-icon-img">
+            <div>
+              <div class="app-card-title">CoreLM</div>
+              <div class="app-card-version">v1.1.0</div>
+            </div>
+          </div>
+          <div class="app-card-desc">Local AI, perfected. Run large language models directly on your Mac with dual inference engines, one-click model downloads from Hugging Face.</div>
+          <div class="app-card-tags">
+            <span class="tag">Local AI</span>
+            <span class="tag">LLM</span>
+            <span class="tag">Inference</span>
+          </div>
+          <div class="app-card-footer">
+            <span class="app-card-link">Learn more &#8594;</span>
+            <span class="app-card-platform">&#63743; macOS 14+</span>
+          </div>
+        </a>
+
+        <!-- Claw Studio -->
+        <a href="apps/claw-studio.html" class="app-card">
+          <div class="app-card-header">
+            <img src="https://raw.githubusercontent.com/Worth-Doing/claw-studio/main/Resources/ClawStudioLogo.svg" alt="Claw Studio" class="app-icon-img">
+            <div>
+              <div class="app-card-title">Claw Studio</div>
+              <div class="app-card-version">v1.0.0</div>
+            </div>
+          </div>
+          <div class="app-card-desc">The ultimate agent operating system. Visual multi-agent orchestration wrapping OpenClaw runtime — 835+ models, 52 skills, 22 channels.</div>
+          <div class="app-card-tags">
+            <span class="tag">Agents</span>
+            <span class="tag">AI</span>
+            <span class="tag">Orchestration</span>
+          </div>
+          <div class="app-card-footer">
+            <span class="app-card-link">Learn more &#8594;</span>
+            <span class="app-card-platform">&#63743; macOS 14+</span>
+          </div>
+        </a>
+
+        <!-- PulseDesk -->
+        <a href="apps/pulsedesk.html" class="app-card">
+          <div class="app-card-header">
+            <img src="https://raw.githubusercontent.com/Worth-Doing/pulsedesk/main/Assets/PulseDesk-Logo.svg" alt="PulseDesk" class="app-icon-img">
+            <div>
+              <div class="app-card-title">PulseDesk</div>
+              <div class="app-card-version">v2.0.0</div>
+            </div>
+          </div>
+          <div class="app-card-desc">Next-generation system monitor and control center. Multi-page dashboard, desktop floating widgets, storage analysis, and one-click boost.</div>
+          <div class="app-card-tags">
+            <span class="tag">System Monitor</span>
+            <span class="tag">Widgets</span>
+            <span class="tag">Performance</span>
+          </div>
+          <div class="app-card-footer">
+            <span class="app-card-link">Learn more &#8594;</span>
+            <span class="app-card-platform">&#63743; macOS 14+</span>
+          </div>
+        </a>
+
+        <!-- GridForge -->
+        <a href="apps/gridforge.html" class="app-card">
+          <div class="app-card-header">
+            <img src="https://raw.githubusercontent.com/Worth-Doing/GridForge/main/Assets/GridForge-Logo.svg" alt="GridForge" class="app-icon-img">
+            <div>
+              <div class="app-card-title">GridForge</div>
+              <div class="app-card-version">v1.0.0</div>
+            </div>
+          </div>
+          <div class="app-card-desc">Native spreadsheet engine with a real formula engine, XLSX import/export, 50+ functions, multi-sheet tabs, and inspector panel.</div>
+          <div class="app-card-tags">
+            <span class="tag">Spreadsheet</span>
+            <span class="tag">XLSX</span>
+            <span class="tag">Formulas</span>
+          </div>
+          <div class="app-card-footer">
+            <span class="app-card-link">Learn more &#8594;</span>
+            <span class="app-card-platform">&#63743; macOS 14+</span>
+          </div>
+        </a>
+
+        <!-- FlowBoard -->
+        <a href="apps/flowboard.html" class="app-card">
+          <div class="app-card-header">
+            <img src="https://raw.githubusercontent.com/Worth-Doing/FlowBoard/main/Assets/logo.svg" alt="FlowBoard" class="app-icon-img">
+            <div>
+              <div class="app-card-title">FlowBoard</div>
+              <div class="app-card-version">v1.0.0</div>
+            </div>
+          </div>
+          <div class="app-card-desc">Legendary Kanban and flow map app. Four board views — Kanban, Flow Map, Calendar, and Table — for complete project visualization.</div>
+          <div class="app-card-tags">
+            <span class="tag">Kanban</span>
+            <span class="tag">Project Management</span>
+            <span class="tag">Flow</span>
+          </div>
+          <div class="app-card-footer">
+            <span class="app-card-link">Learn more &#8594;</span>
+            <span class="app-card-platform">&#63743; macOS 14+</span>
+          </div>
+        </a>
+
+        <!-- DropVault -->
+        <a href="apps/dropvault.html" class="app-card">
+          <div class="app-card-header">
+            <img src="https://raw.githubusercontent.com/Worth-Doing/dropvault/main/Resources/AppIcon.svg" alt="DropVault" class="app-icon-img">
+            <div>
+              <div class="app-card-title">DropVault</div>
+              <div class="app-card-version">v2.0.0</div>
+            </div>
+          </div>
+          <div class="app-card-desc">Capture everything, lose nothing. Clipboard and drag-and-drop command center with menu bar access, shelves, tagging, and export/import.</div>
+          <div class="app-card-tags">
+            <span class="tag">Clipboard</span>
+            <span class="tag">Drag & Drop</span>
+            <span class="tag">Productivity</span>
+          </div>
+          <div class="app-card-footer">
+            <span class="app-card-link">Learn more &#8594;</span>
+            <span class="app-card-platform">&#63743; macOS 14+</span>
+          </div>
+        </a>
+
+        <!-- OSVault -->
+        <a href="apps/osvault.html" class="app-card">
+          <div class="app-card-header">
+            <img src="https://raw.githubusercontent.com/Worth-Doing/OSVault/main/Assets/AppIcon.svg" alt="OSVault" class="app-icon-img">
+            <div>
+              <div class="app-card-title">OSVault</div>
+              <div class="app-card-version">v2.0.0</div>
+            </div>
+          </div>
+          <div class="app-card-desc">Secure native password vault. AES-256-GCM encryption, PBKDF2-SHA256 key derivation with 600K iterations, zero dependencies.</div>
+          <div class="app-card-tags">
+            <span class="tag">Security</span>
+            <span class="tag">Passwords</span>
+            <span class="tag">Encryption</span>
+          </div>
+          <div class="app-card-footer">
+            <span class="app-card-link">Learn more &#8594;</span>
+            <span class="app-card-platform">&#63743; macOS 14+</span>
+          </div>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Other Projects -->
+  <section class="section" id="projects">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-label">&#9679; Open Source</div>
+        <h2>Developer Tools & SDKs</h2>
+        <p>Libraries, agents, platforms, and infrastructure powering the Worth Doing ecosystem.</p>
+      </div>
+
+      <div class="projects-grid">
+
+        <a href="https://github.com/Worth-Doing/wd-llm-index" target="_blank" class="project-card">
+          <div class="project-card-name">WD LLM Index</div>
+          <div class="project-card-desc">Multi-dimensional LLM benchmarking platform. 348+ models, 16-dimension capability surface, perturbation testing, failure taxonomy.</div>
+          <div class="project-card-meta">
+            <span class="project-lang"><span class="lang-dot" style="background: #3178c6;"></span> TypeScript</span>
+          </div>
+        </a>
+
+        <a href="https://github.com/Worth-Doing/wd-agent" target="_blank" class="project-card">
+          <div class="project-card-name">WD Agent</div>
+          <div class="project-card-desc">Local agent operating system powered by Claude Opus 4.6 and WorthDoing Capabilities.</div>
+          <div class="project-card-meta">
+            <span class="project-lang"><span class="lang-dot" style="background: #3178c6;"></span> TypeScript</span>
+          </div>
+        </a>
+
+        <a href="https://github.com/Worth-Doing/macpulse" target="_blank" class="project-card">
+          <div class="project-card-name">MacPulse</div>
+          <div class="project-card-desc">Next-gen Mac system monitor with real-time CPU, RAM, GPU, disk, network, battery in a beautiful interactive terminal UI.</div>
+          <div class="project-card-meta">
+            <span class="project-lang"><span class="lang-dot" style="background: #3178c6;"></span> TypeScript</span>
+          </div>
+        </a>
+
+        <a href="https://github.com/Worth-Doing/termxl" target="_blank" class="project-card">
+          <div class="project-card-name">TermXL</div>
+          <div class="project-card-desc">Terminal-native spreadsheet — Excel in your terminal. Full formula engine, real-time recalculation, premium TUI.</div>
+          <div class="project-card-meta">
+            <span class="project-lang"><span class="lang-dot" style="background: #3178c6;"></span> TypeScript</span>
+          </div>
+        </a>
+
+        <a href="https://github.com/Worth-Doing/worthdoing-capabilities" target="_blank" class="project-card">
+          <div class="project-card-name">WD Capabilities (Python)</div>
+          <div class="project-card-desc">Official capability package — portable, composable, production-grade agent actions for Python.</div>
+          <div class="project-card-meta">
+            <span class="project-lang"><span class="lang-dot" style="background: #3572A5;"></span> Python</span>
+          </div>
+        </a>
+
+        <a href="https://github.com/Worth-Doing/worthdoing-capabilities-js" target="_blank" class="project-card">
+          <div class="project-card-name">WD Capabilities (JS)</div>
+          <div class="project-card-desc">Official TypeScript SDK — portable, composable agent actions for JavaScript and TypeScript.</div>
+          <div class="project-card-meta">
+            <span class="project-lang"><span class="lang-dot" style="background: #3178c6;"></span> TypeScript</span>
+          </div>
+        </a>
+
+        <a href="https://github.com/Worth-Doing/local-llm-inference" target="_blank" class="project-card">
+          <div class="project-card-name">Local LLM Inference</div>
+          <div class="project-card-desc">Custom C++ inference engine with Web UI for running LLMs locally.</div>
+          <div class="project-card-meta">
+            <span class="project-lang"><span class="lang-dot" style="background: #f34b7d;"></span> C++</span>
+          </div>
+        </a>
+
+        <a href="https://github.com/Worth-Doing/ai-playground" target="_blank" class="project-card">
+          <div class="project-card-name">AI Playground</div>
+          <div class="project-card-desc">Interactive AI experimentation platform by WorthDoing.ai.</div>
+          <div class="project-card-meta">
+            <span class="project-lang"><span class="lang-dot" style="background: #3178c6;"></span> TypeScript</span>
+          </div>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="section">
+    <div class="container">
+      <div class="cta-box">
+        <h2>All apps are free and open source</h2>
+        <p>Every Worth Doing app ships signed and notarized by Apple. Download the DMG, drag to Applications, and you're running.</p>
+        <a href="https://github.com/Worth-Doing" target="_blank" class="btn btn-primary">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+          View on GitHub
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-left">
+          <div class="footer-logo">W</div>
+          <span class="footer-text">&copy; 2026 Worth Doing. All rights reserved.</span>
+        </div>
+        <div class="footer-links">
+          <a href="https://github.com/Worth-Doing" target="_blank">GitHub</a>
+          <a href="https://huggingface.co/worthdoing" target="_blank">Hugging Face</a>
+          <a href="https://worthdoing.ai" target="_blank">worthdoing.ai</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aether — AI-Powered Cognitive Browser for macOS | Worth Doing</title>
+  <meta name="description" content="Aether — A next-generation cognitive browser for macOS. AI search with 4 providers, reading mode, multi-panel workspaces. Built with Swift + SwiftUI.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%236366f1'/><text x='50' y='68' font-size='50' text-anchor='middle' fill='white' font-weight='bold'>W</text></svg>">
+</head>
+<body>
+  <div class="bg-grid"></div>
+  <div class="bg-glow bg-glow-1"></div>
+  <div class="bg-glow bg-glow-2"></div>
+
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="../index.html" class="nav-logo">
+        <div class="nav-logo-icon">W</div>
+        Worth Doing
+      </a>
+      <div class="nav-links">
+        <a href="../index.html#apps">Apps</a>
+        <a href="../index.html#projects">Projects</a>
+        <a href="https://github.com/Worth-Doing" target="_blank">GitHub</a>
+      </div>
+      <button class="nav-toggle" aria-label="Menu">
+        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
+      </button>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="breadcrumb">
+      <a href="../index.html">Home</a>
+      <span class="breadcrumb-sep">/</span>
+      <a href="../index.html#apps">Apps</a>
+      <span class="breadcrumb-sep">/</span>
+      <span>Aether</span>
+    </div>
+  </div>
+
+  <section class="app-hero">
+    <div class="container">
+      <div class="app-hero-content">
+        <div class="app-hero-text">
+          <img src="https://raw.githubusercontent.com/Worth-Doing/aether/main/assets/logo.svg" alt="Aether" class="app-hero-icon-img">
+          <h1>Aether</h1>
+          <div class="app-hero-tagline">The Cognitive Browser</div>
+          <p class="app-hero-desc">Browse, search, organize, and understand the web — powered by AI. Four layers working together: native browsing, multi-panel workspaces, AI intelligence, and deep search with Serper, Firecrawl, Exa, and Tavily integrations.</p>
+          <div class="app-hero-meta">
+            <span class="app-meta-item">&#63743; macOS 14+</span>
+            <span class="app-meta-item">Swift 5.9</span>
+            <span class="app-meta-item">Apple Notarized</span>
+            <span class="app-meta-item">v1.0.0</span>
+          </div>
+          <div class="app-hero-actions">
+            <a href="https://github.com/Worth-Doing/aether/releases/download/v1.0.0/Aether.dmg" class="btn btn-download">Download DMG (3.3 MB)</a>
+            <a href="https://github.com/Worth-Doing/aether" target="_blank" class="btn btn-glass">View Source</a>
+          </div>
+        </div>
+        <div class="app-hero-visual">
+          <div class="glass-panel" style="padding: 3rem; text-align: center; max-width: 400px;">
+            <img src="https://raw.githubusercontent.com/Worth-Doing/aether/main/assets/logo.svg" alt="Aether" style="width: 160px; height: 160px; margin-bottom: 1.5rem;">
+            <div style="font-size: 1.3rem; font-weight: 700; margin-bottom: 0.5rem;">Aether 1.0.0</div>
+            <div style="font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 1rem;">Cognitive Browser for macOS</div>
+            <div style="display: flex; gap: 0.5rem; justify-content: center; flex-wrap: wrap;">
+              <span class="tag">AI Search</span>
+              <span class="tag">Reading Mode</span>
+              <span class="tag">Workspaces</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-label">&#9679; Capabilities</div>
+        <h2>Features</h2>
+      </div>
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon" style="background: rgba(6, 182, 212, 0.15); color: #06b6d4;">&#128269;</div>
+          <h3>AI Search — 4 Providers</h3>
+          <p>Serper (Google API), Firecrawl (web scraping), Exa (neural search), and Tavily (research-grade). 7 search modes including Web, Images, Videos, News, Research.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon" style="background: rgba(59, 130, 246, 0.15); color: #3b82f6;">&#128214;</div>
+          <h3>Reading Mode</h3>
+          <p>Distraction-free reader with serif typography, adjustable font size (13–24pt), column width, line spacing, and floating glass control panel.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon" style="background: rgba(139, 92, 246, 0.15); color: #8b5cf6;">&#128187;</div>
+          <h3>Multi-Panel Workspaces</h3>
+          <p>Multi-panel tabs, saved sessions, spatial layouts. Organize your browsing across multiple contexts simultaneously.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon" style="background: rgba(34, 197, 94, 0.15); color: #22c55e;">&#129504;</div>
+          <h3>AI Page Analysis</h3>
+          <p>6 page actions: Summarize, Explain, Key Points, Extract Actions, Simplify, Translate. Multi-turn chat about the current page with markdown rendering.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon" style="background: rgba(249, 115, 22, 0.15); color: #f97316;">&#127912;</div>
+          <h3>Rich Media Results</h3>
+          <p>Image grids with thumbnails, video cards with duration/channel, news cards with source/date, Google Knowledge Graph panels inline.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon" style="background: rgba(236, 72, 153, 0.15); color: #ec4899;">&#9889;</div>
+          <h3>Native Performance</h3>
+          <p>Built with WKWebView for fast, native web browsing. Search caching with 5-minute TTL, auto provider routing for optimal results.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2>Installation</h2>
+      </div>
+      <div class="install-steps">
+        <div class="install-step">
+          <div class="install-step-num">1</div>
+          <h4>Download</h4>
+          <p>Get Aether.dmg from GitHub Releases</p>
+        </div>
+        <div class="install-step">
+          <div class="install-step-num">2</div>
+          <h4>Open DMG</h4>
+          <p>Double-click the downloaded file</p>
+        </div>
+        <div class="install-step">
+          <div class="install-step-num">3</div>
+          <h4>Drag to Apps</h4>
+          <p>Move Aether.app to Applications</p>
+        </div>
+        <div class="install-step">
+          <div class="install-step-num">4</div>
+          <h4>Launch</h4>
+          <p>Open from Spotlight or Launchpad</p>
+        </div>
+      </div>
+      <div class="requirements">
+        <span class="req-badge">&#10003; Apple Notarized</span>
+        <span class="req-badge">&#10003; Code Signed</span>
+        <span class="req-badge">&#10003; macOS 14+</span>
+        <span class="req-badge">&#10003; Apple Silicon</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2>More Apps</h2>
+      </div>
+      <div class="other-apps">
+        <a href="foundry.html" class="other-app-link"><img src="https://raw.githubusercontent.com/Worth-Doing/foundry/main/Resources/foundry-logo.svg" alt="Foundry" class="other-app-icon-img"> Foundry</a>
+        <a href="terminus.html" class="other-app-link"><img src="https://raw.githubusercontent.com/Worth-Doing/terminus/main/Resources/AppIcon.svg" alt="Terminus" class="other-app-icon-img"> Terminus</a>
+        <a href="corelm.html" class="other-app-link"><img src="https://raw.githubusercontent.com/Worth-Doing/CoreLM/main/Resources/AppIcon.svg" alt="CoreLM" class="other-app-icon-img"> CoreLM</a>
+        <a href="claw-studio.html" class="other-app-link"><img src="https://raw.githubusercontent.com/Worth-Doing/claw-studio/main/Resources/ClawStudioLogo.svg" alt="Claw Studio" class="other-app-icon-img"> Claw Studio</a>
+        <a href="pulsedesk.html" class="other-app-link"><img src="https://raw.githubusercontent.com/Worth-Doing/pulsedesk/main/Assets/PulseDesk-Logo.svg" alt="PulseDesk" class="other-app-icon-img"> PulseDesk</a>
+        <a href="gridforge.html" class="other-app-link"><img src="https://raw.githubusercontent.com/Worth-Doing/GridForge/main/Assets/GridForge-Logo.svg" alt="GridForge" class="other-app-icon-img"> GridForge</a>
+        <a href="flowboard.html" class="other-app-link"><img src="https://raw.githubusercontent.com/Worth-Doing/FlowBoard/main/Assets/logo.svg" alt="FlowBoard" class="other-app-icon-img"> FlowBoard</a>
+        <a href="dropvault.html" class="other-app-link"><img src="https://raw.githubusercontent.com/Worth-Doing/dropvault/main/Resources/AppIcon.svg" alt="DropVault" class="other-app-icon-img"> DropVault</a>
+        <a href="osvault.html" class="other-app-link"><img src="https://raw.githubusercontent.com/Worth-Doing/OSVault/main/Assets/AppIcon.svg" alt="OSVault" class="other-app-icon-img"> OSVault</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-left">
+          <div class="footer-logo">W</div>
+          <span class="footer-text">&copy; 2026 Worth Doing. All rights reserved.</span>
+        </div>
+        <div class="footer-links">
+          <a href="https://github.com/Worth-Doing" target="_blank">GitHub</a>
+          <a href="https://huggingface.co/worthdoing" target="_blank">Hugging Face</a>
+          <a href="https://worthdoing.ai" target="_blank">worthdoing.ai</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../js/main.js"></script>
+</body>
+</html>

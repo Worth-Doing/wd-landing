@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DropVault — Clipboard & Drop Command Center for macOS | Worth Doing</title>
+  <meta name="description" content="DropVault — Capture everything, lose nothing. macOS clipboard and drag-and-drop command center with shelves, tagging, and export. Built with Swift + SwiftUI.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%236366f1'/><text x='50' y='68' font-size='50' text-anchor='middle' fill='white' font-weight='bold'>W</text></svg>">
+</head>
+<body>
+  <div class="bg-grid"></div>
+  <div class="bg-glow bg-glow-1"></div>
+  <div class="bg-glow bg-glow-2"></div>
+
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="../index.html" class="nav-logo">
+        <div class="nav-logo-icon">W</div>
+        Worth Doing
+      </a>
+      <div class="nav-links">
+        <a href="../index.html#apps">Apps</a>
+        <a href="../index.html#projects">Projects</a>
+        <a href="https://github.com/Worth-Doing" target="_blank">GitHub</a>
+      </div>
+      <button class="nav-toggle" aria-label="Menu">
+        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
+      </button>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="breadcrumb">
+      <a href="../index.html">Home</a>
+      <span class="breadcrumb-sep">/</span>
+      <a href="../index.html#apps">Apps</a>
+      <span class="breadcrumb-sep">/</span>
+      <span>DropVault</span>
+    </div>
+  </div>
+
+  <section class="app-hero">
+    <div class="container">
+      <div class="app-hero-content">
+        <div class="app-hero-text">
+          <img src="https://raw.githubusercontent.com/Worth-Doing/dropvault/main/Resources/AppIcon.svg" alt="DropVault" class="app-hero-icon-img">
+          <h1>DropVault</h1>
+          <div class="app-hero-tagline">Capture Everything. Lose Nothing.</div>
+          <p class="app-hero-desc">The visual memory layer for macOS. A next-generation clipboard and drag-and-drop command center with menu bar access, floating drop zone, shelves, tagging, sorting, grid/list views, export/import, and full keyboard shortcuts.</p>
+          <div class="app-hero-meta">
+            <span class="app-meta-item">&#63743; macOS 14+</span>
+            <span class="app-meta-item">Swift 5.9</span>
+            <span class="app-meta-item">Local-First</span>
+            <span class="app-meta-item">v2.0.0</span>
+          </div>
+          <div class="app-hero-actions">
+            <a href="https://github.com/Worth-Doing/dropvault/releases/download/v2.0.0/DropVault-2.0.0.dmg" class="btn btn-download">Download DMG (2.2 MB)</a>
+            <a href="https://github.com/Worth-Doing/dropvault" target="_blank" class="btn btn-glass">View Source</a>
+          </div>
+        </div>
+        <div class="app-hero-visual">
+          <img src="https://raw.githubusercontent.com/Worth-Doing/dropvault/main/screenshots/01-main-window.png" alt="DropVault — Main Window" class="app-screenshot">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-label">&#9679; Capabilities</div>
+        <h2>Features</h2>
+      </div>
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon" style="background: rgba(239, 68, 68, 0.15); color: #ef4444;">&#128203;</div>
+          <h3>Clipboard Monitoring</h3>
+          <p>Automatic clipboard capture with toggle control. Pause/resume from toolbar, menu bar, or settings. Copy confirmation toast.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon" style="background: rgba(249, 115, 22, 0.15); color: #f97316;">&#128448;</div>
+          <h3>Floating Drop Zone</h3>
+          <p>Drag and drop anything onto the floating window. Files, text, images, links — all captured and organized automatically.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon" style="background: rgba(59, 130, 246, 0.15); color: #3b82f6;">&#128193;</div>
+          <h3>Shelves & Tags</h3>
+          <p>Organize items into shelves with custom icons (13 options). Add and remove tags freely. Rename and manage via context menu.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon" style="background: rgba(34, 197, 94, 0.15); color: #22c55e;">&#9638;</div>
+          <h3>Grid & List Views</h3>
+          <p>Toggle between visual card grid and compact list. 6 sort modes: newest, oldest, A–Z, Z–A, largest first, by category.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon" style="background: rgba(139, 92, 246, 0.15); color: #8b5cf6;">&#128259;</div>
+          <h3>Export & Import</h3>
+          <p>Export your full vault to JSON, import with automatic deduplication. Open links in browser, reveal files in Finder.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon" style="background: rgba(6, 182, 212, 0.15); color: #06b6d4;">&#9776;</div>
+          <h3>Menu Bar Extra</h3>
+          <p>Quick-access menu bar icon with recent items, monitoring toggle, and drop zone control. Always one click away.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Screenshots -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-label">&#9679; Preview</div>
+        <h2>Screenshots</h2>
+      </div>
+      <div class="screenshots-grid">
+        <div class="screenshots-grid-2col">
+          <div class="screenshot-item">
+            <img src="https://raw.githubusercontent.com/Worth-Doing/dropvault/main/screenshots/02-list-view.png" alt="DropVault — List View" loading="lazy">
+            <div class="screenshot-caption">Compact list view with alternating rows</div>
+          </div>
+          <div class="screenshot-item">
+            <img src="https://raw.githubusercontent.com/Worth-Doing/dropvault/main/screenshots/03-code-category.png" alt="DropVault — Code Category" loading="lazy">
+            <div class="screenshot-caption">Category-filtered view with code snippets</div>
+          </div>
+        </div>
+        <div class="screenshots-grid-2col">
+          <div class="screenshot-item">
+            <img src="https://raw.githubusercontent.com/Worth-Doing/dropvault/main/screenshots/04-empty-state.png" alt="DropVault — Empty State" loading="lazy">
+            <div class="screenshot-caption">Context-aware empty states</div>
+          </div>
+          <div class="screenshot-item">
+            <img src="https://raw.githubusercontent.com/Worth-Doing/dropvault/main/screenshots/05-drop-zone.png" alt="DropVault — Drop Zone" loading="lazy">
+            <div class="screenshot-caption">Floating drag-and-drop zone</div>
+          </div>
+        </div>
+        <div class="screenshots-grid-2col">
+          <div class="screenshot-item">
+            <img src="https://raw.githubusercontent.com/Worth-Doing/dropvault/main/screenshots/06-settings-general.png" alt="DropVault — Settings" loading="lazy">
+            <div class="screenshot-caption">General settings</div>
+          </div>
+          <div class="screenshot-item">
+            <img src="https://raw.githubusercontent.com/Worth-Doing/dropvault/main/screenshots/07-settings-storage.png" alt="DropVault — Storage" loading="lazy">
+            <div class="screenshot-caption">Storage settings and info</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2>Installation</h2>
+      </div>
+      <div class="install-steps">
+        <div class="install-step">
+          <div class="install-step-num">1</div>
+          <h4>Download</h4>
+          <p>Get DropVault.dmg from Releases</p>
+        </div>
+        <div class="install-step">
+          <div class="install-step-num">2</div>
+          <h4>Open DMG</h4>
+          <p>Double-click the downloaded file</p>
+        </div>
+        <div class="install-step">
+          <div class="install-step-num">3</div>
+          <h4>Drag to Apps</h4>
+          <p>Move DropVault.app to Applications</p>
+        </div>
+        <div class="install-step">
+          <div class="install-step-num">4</div>
+          <h4>Launch</h4>
+          <p>Opens in menu bar automatically</p>
+        </div>
+      </div>
+      <div class="requirements">
+        <span class="req-badge">&#10003; Apple Notarized</span>
+        <span class="req-badge">&#10003; Code Signed</span>
+        <span class="req-badge">&#10003; macOS 14+</span>
+        <span class="req-badge">&#10003; Local-First Privacy</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2>More Apps</h2>
+      </div>
+      <div class="other-apps">
+        <a href="foundry.html" class="other-app-link"><img src="https://raw.githubusercontent.com/Worth-Doing/foundry/main/Resources/foundry-logo.svg" alt="Foundry" class="other-app-icon-img"> Foundry</a>
+        <a href="aether.html" class="other-app-link"><img src="https://raw.githubusercontent.com/Worth-Doing/aether/main/assets/logo.svg" alt="Aether" class="other-app-icon-img"> Aether</a>
+        <a href="terminus.html" class="other-app-link"><img src="https://raw.githubusercontent.com/Worth-Doing/terminus/main/Resources/AppIcon.svg" alt="Terminus" class="other-app-icon-img"> Terminus</a>
+        <a href="corelm.html" class="other-app-link"><img src="https://raw.githubusercontent.com/Worth-Doing/CoreLM/main/Resources/AppIcon.svg" alt="CoreLM" class="other-app-icon-img"> CoreLM</a>
+        <a href="claw-studio.html" class="other-app-link"><img src="https://raw.githubusercontent.com/Worth-Doing/claw-studio/main/Resources/ClawStudioLogo.svg" alt="Claw Studio" class="other-app-icon-img"> Claw Studio</a>
+        <a href="pulsedesk.html" class="other-app-link"><img src="https://raw.githubusercontent.com/Worth-Doing/pulsedesk/main/Assets/PulseDesk-Logo.svg" alt="PulseDesk" class="other-app-icon-img"> PulseDesk</a>
+        <a href="gridforge.html" class="other-app-link"><img src="https://raw.githubusercontent.com/Worth-Doing/GridForge/main/Assets/GridForge-Logo.svg" alt="GridForge" class="other-app-icon-img"> GridForge</a>
+        <a href="flowboard.html" class="other-app-link"><img src="https://raw.githubusercontent.com/Worth-Doing/FlowBoard/main/Assets/logo.svg" alt="FlowBoard" class="other-app-icon-img"> FlowBoard</a>
+        <a href="osvault.html" class="other-app-link"><img src="https://raw.githubusercontent.com/Worth-Doing/OSVault/main/Assets/AppIcon.svg" alt="OSVault" class="other-app-icon-img"> OSVault</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-left">
+          <div class="footer-logo">W</div>
+          <span class="footer-text">&copy; 2026 Worth Doing. All rights reserved.</span>
+        </div>
+        <div class="footer-links">
+          <a href="https://github.com/Worth-Doing" target="_blank">GitHub</a>
+          <a href="https://huggingface.co/worthdoing" target="_blank">Hugging Face</a>
+          <a href="https://worthdoing.ai" target="_blank">worthdoing.ai</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../js/main.js"></script>
+</body>
+</html>
