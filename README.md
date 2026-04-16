@@ -13,7 +13,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Apps-10-6366f1?style=flat-square" alt="10 Apps" />
+  <img src="https://img.shields.io/badge/Apps-12-6366f1?style=flat-square" alt="12 Apps" />
   <img src="https://img.shields.io/badge/Platform-macOS%2014+-000000?style=flat-square&logo=apple&logoColor=white" alt="macOS" />
   <img src="https://img.shields.io/badge/Language-Swift%20%2B%20SwiftUI-F05138?style=flat-square&logo=swift&logoColor=white" alt="Swift" />
   <img src="https://img.shields.io/badge/Notarized-Apple-000000?style=flat-square&logo=apple&logoColor=white" alt="Notarized" />
@@ -32,7 +32,7 @@
 
 ## What is This?
 
-This is the official **Worth Doing app showcase and download portal** — a static website that presents all 10 native macOS applications built by [Worth Doing](https://github.com/Worth-Doing), with direct DMG download links, feature descriptions, screenshots, and installation instructions.
+This is the official **Worth Doing app showcase and download portal** — a static website that presents all 12 native macOS applications built by [Worth Doing](https://github.com/Worth-Doing), with direct DMG download links, feature descriptions, screenshots, and installation instructions.
 
 The site is built with **pure HTML, CSS, and JavaScript** — no framework, no build step, no dependencies. It deploys via **GitHub Pages** directly from the `main` branch.
 
@@ -49,6 +49,8 @@ The site is built with **pure HTML, CSS, and JavaScript** — no framework, no b
 | [**Terminus**](https://github.com/Worth-Doing/terminus) | Intelligent terminal — natural language commands, multi-panel workspace, command safety analysis, learning-based predictions. | v0.3.0 | [DMG](https://github.com/Worth-Doing/terminus/releases/download/v0.3.0/Terminus-0.3.0.dmg) |
 | [**CoreLM**](https://github.com/Worth-Doing/CoreLM) | Local AI studio — dual inference engine (Ollama + llama.cpp), one-click model downloads from Hugging Face, Metal GPU acceleration. | v1.1.0 | [DMG](https://github.com/Worth-Doing/CoreLM/releases/download/v1.1.0/CoreLM-1.0.0.dmg) |
 | [**Claw Studio**](https://github.com/Worth-Doing/claw-studio) | Agent operating system — visual multi-agent orchestration wrapping OpenClaw. 835+ models, 52 skills, 22 channels. | v1.0.0 | [DMG](https://github.com/Worth-Doing/claw-studio/releases/download/v1.0.0/ClawStudio.dmg) |
+| [**OpenRouter Playground**](https://github.com/Worth-Doing/openrouter-playground) | Native OpenRouter experimentation studio — multi-turn chat, model catalog, streaming, side-by-side comparison, response inspector. | v1.0.0 | [DMG](https://github.com/Worth-Doing/openrouter-playground/releases/download/v1.0.0/OpenRouter.Playground.dmg) |
+| [**Brain OS**](https://github.com/Worth-Doing/brain-os) | AI desktop agent — natural language task execution via Shell & AppleScript with OpenRouter LLMs. Plan, approve, execute. | v1.0.0 | [DMG](https://github.com/Worth-Doing/brain-os/releases/download/v1.0.0/WorthDoing.dmg) |
 
 ### Productivity & Utilities
 
@@ -83,7 +85,7 @@ The site is built with **pure HTML, CSS, and JavaScript** — no framework, no b
 
 ```
 wd-landing/
-├── index.html              Main landing page — hero, 10 app cards, 8 project cards
+├── index.html              Main landing page — hero, 12 app cards, 8 project cards
 ├── css/
 │   └── style.css           Glass design system (glassmorphism, dark theme, animations)
 ├── js/
@@ -98,7 +100,9 @@ wd-landing/
     ├── gridforge.html       GridForge — spreadsheet engine
     ├── flowboard.html       FlowBoard — kanban & flow map
     ├── dropvault.html       DropVault — clipboard manager
-    └── osvault.html         OSVault — password vault
+    ├── osvault.html         OSVault — password vault
+    ├── openrouter-playground.html  OpenRouter Playground — OpenRouter studio
+    └── brain-os.html        Brain OS — AI desktop agent
 ```
 
 ### Each App Page Includes
