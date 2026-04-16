@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>DropVault — Clipboard & Drop Command Center for macOS | Worth Doing</title>
-  <meta name="description" content="DropVault — Capture everything, lose nothing. macOS clipboard and drag-and-drop command center with shelves, tagging, and export. Built with Swift + SwiftUI.">
+  <title>Brain OS — AI Desktop Agent for macOS | Worth Doing</title>
+  <meta name="description" content="Brain OS — AI-powered desktop agent for macOS. Natural language task execution via Shell & AppleScript with OpenRouter LLMs. Built with Swift + SwiftUI.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -39,7 +39,7 @@
       <span class="breadcrumb-sep">/</span>
       <a href="../index.html#apps">Apps</a>
       <span class="breadcrumb-sep">/</span>
-      <span>DropVault</span>
+      <span>Brain OS</span>
     </div>
   </div>
 
@@ -47,23 +47,32 @@
     <div class="container">
       <div class="app-hero-content">
         <div class="app-hero-text">
-          <img src="https://raw.githubusercontent.com/Worth-Doing/dropvault/main/Resources/AppIcon.svg" alt="DropVault" class="app-hero-icon-img">
-          <h1>DropVault</h1>
-          <div class="app-hero-tagline">Capture Everything. Lose Nothing.</div>
-          <p class="app-hero-desc">The visual memory layer for macOS. A next-generation clipboard and drag-and-drop command center with menu bar access, floating drop zone, shelves, tagging, sorting, grid/list views, export/import, and full keyboard shortcuts.</p>
+          <img src="https://raw.githubusercontent.com/Worth-Doing/brain-os/main/Resources/AppIcon.svg" alt="Brain OS" class="app-hero-icon-img">
+          <h1>Brain OS</h1>
+          <div class="app-hero-tagline">AI-Powered Desktop Agent</div>
+          <p class="app-hero-desc">Describe a task in natural language. The agent plans it, you approve it, it executes it. Uses OpenRouter LLMs for reasoning and planning, then executes actions through shell commands and AppleScript — step by step, with full visibility and safety controls.</p>
           <div class="app-hero-meta">
             <span class="app-meta-item">&#63743; macOS 14+</span>
-            <span class="app-meta-item">Swift 5.9</span>
-            <span class="app-meta-item">Local-First</span>
-            <span class="app-meta-item">v2.0.0</span>
+            <span class="app-meta-item">Swift 5.9+</span>
+            <span class="app-meta-item">6,027 LOC</span>
+            <span class="app-meta-item">v1.0.0</span>
           </div>
           <div class="app-hero-actions">
-            <a href="https://github.com/Worth-Doing/dropvault/releases/download/v2.0.0/DropVault-2.0.0.dmg" class="btn btn-download">Download DMG (2.2 MB)</a>
-            <a href="https://github.com/Worth-Doing/dropvault" target="_blank" class="btn btn-glass">View Source</a>
+            <a href="https://github.com/Worth-Doing/brain-os/releases/download/v1.0.0/WorthDoing.dmg" class="btn btn-download">Download DMG (2.8 MB)</a>
+            <a href="https://github.com/Worth-Doing/brain-os" target="_blank" class="btn btn-glass">View Source</a>
           </div>
         </div>
         <div class="app-hero-visual">
-          <img src="https://raw.githubusercontent.com/Worth-Doing/dropvault/main/screenshots/01-main-window.png" alt="DropVault — Main Window" class="app-screenshot">
+          <div class="glass-panel" style="padding: 3rem; text-align: center; max-width: 400px;">
+            <img src="https://raw.githubusercontent.com/Worth-Doing/brain-os/main/Resources/AppIcon.svg" alt="Brain OS" style="width: 160px; height: 160px; margin-bottom: 1.5rem;">
+            <div style="font-size: 1.3rem; font-weight: 700; margin-bottom: 0.5rem;">Brain OS 1.0.0</div>
+            <div style="font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 1rem;">AI Desktop Agent for macOS</div>
+            <div style="display: flex; gap: 0.5rem; justify-content: center; flex-wrap: wrap;">
+              <span class="tag">Natural Language</span>
+              <span class="tag">Shell</span>
+              <span class="tag">AppleScript</span>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -77,76 +86,34 @@
       </div>
       <div class="features-grid">
         <div class="feature-card">
-          <div class="feature-icon" style="background: rgba(239, 68, 68, 0.15); color: #ef4444;">&#128203;</div>
-          <h3>Clipboard Monitoring</h3>
-          <p>Automatic clipboard capture with toggle control. Pause/resume from toolbar, menu bar, or settings. Copy confirmation toast.</p>
+          <div class="feature-icon" style="background: rgba(99, 102, 241, 0.1); color: #6366f1;">&#129504;</div>
+          <h3>Agent Execution Engine</h3>
+          <p>Sequential step-by-step execution with 10 step types: shell, AppleScript, file I/O, LLM reasoning, verification, and more. Automatic error recovery.</p>
         </div>
         <div class="feature-card">
-          <div class="feature-icon" style="background: rgba(249, 115, 22, 0.15); color: #f97316;">&#128448;</div>
-          <h3>Floating Drop Zone</h3>
-          <p>Drag and drop anything onto the floating window. Files, text, images, links — all captured and organized automatically.</p>
+          <div class="feature-icon" style="background: rgba(220, 38, 38, 0.1); color: #dc2626;">&#128737;</div>
+          <h3>Safety & Transparency</h3>
+          <p>Risk classification engine (low/medium/high). Safe Mode requires approval for risky actions. Pattern analysis detects rm -rf, sudo, etc.</p>
         </div>
         <div class="feature-card">
-          <div class="feature-icon" style="background: rgba(59, 130, 246, 0.15); color: #3b82f6;">&#128193;</div>
-          <h3>Shelves & Tags</h3>
-          <p>Organize items into shelves with custom icons (13 options). Add and remove tags freely. Rename and manage via context menu.</p>
+          <div class="feature-icon" style="background: rgba(37, 99, 235, 0.1); color: #2563eb;">&#128161;</div>
+          <h3>LLM Planning</h3>
+          <p>OpenRouter integration with any model. Structured JSON plan generation — task interpretation, assumptions, risk assessment, steps. Step repair on failure.</p>
         </div>
         <div class="feature-card">
-          <div class="feature-icon" style="background: rgba(34, 197, 94, 0.15); color: #22c55e;">&#9638;</div>
-          <h3>Grid & List Views</h3>
-          <p>Toggle between visual card grid and compact list. 6 sort modes: newest, oldest, A–Z, Z–A, largest first, by category.</p>
+          <div class="feature-icon" style="background: rgba(22, 163, 74, 0.1); color: #16a34a;">&#128196;</div>
+          <h3>Workflows & History</h3>
+          <p>Save successful executions as reusable workflows. Favorite, search, filter, and re-run workflows with one click. Full session logging.</p>
         </div>
         <div class="feature-card">
-          <div class="feature-icon" style="background: rgba(139, 92, 246, 0.15); color: #8b5cf6;">&#128259;</div>
-          <h3>Export & Import</h3>
-          <p>Export your full vault to JSON, import with automatic deduplication. Open links in browser, reveal files in Finder.</p>
+          <div class="feature-icon" style="background: rgba(234, 88, 12, 0.1); color: #ea580c;">&#9654;</div>
+          <h3>Live Execution Timeline</h3>
+          <p>Pause, resume, cancel mid-execution. See live output, errors, retries, and final result for every step in real time.</p>
         </div>
         <div class="feature-card">
-          <div class="feature-icon" style="background: rgba(6, 182, 212, 0.15); color: #06b6d4;">&#9776;</div>
-          <h3>Menu Bar Extra</h3>
-          <p>Quick-access menu bar icon with recent items, monitoring toggle, and drop zone control. Always one click away.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Screenshots -->
-  <section class="section">
-    <div class="container">
-      <div class="section-header">
-        <div class="section-label">&#9679; Preview</div>
-        <h2>Screenshots</h2>
-      </div>
-      <div class="screenshots-grid">
-        <div class="screenshots-grid-2col">
-          <div class="screenshot-item">
-            <img src="https://raw.githubusercontent.com/Worth-Doing/dropvault/main/screenshots/02-list-view.png" alt="DropVault — List View" loading="lazy">
-            <div class="screenshot-caption">Compact list view with alternating rows</div>
-          </div>
-          <div class="screenshot-item">
-            <img src="https://raw.githubusercontent.com/Worth-Doing/dropvault/main/screenshots/03-code-category.png" alt="DropVault — Code Category" loading="lazy">
-            <div class="screenshot-caption">Category-filtered view with code snippets</div>
-          </div>
-        </div>
-        <div class="screenshots-grid-2col">
-          <div class="screenshot-item">
-            <img src="https://raw.githubusercontent.com/Worth-Doing/dropvault/main/screenshots/04-empty-state.png" alt="DropVault — Empty State" loading="lazy">
-            <div class="screenshot-caption">Context-aware empty states</div>
-          </div>
-          <div class="screenshot-item">
-            <img src="https://raw.githubusercontent.com/Worth-Doing/dropvault/main/screenshots/05-drop-zone.png" alt="DropVault — Drop Zone" loading="lazy">
-            <div class="screenshot-caption">Floating drag-and-drop zone</div>
-          </div>
-        </div>
-        <div class="screenshots-grid-2col">
-          <div class="screenshot-item">
-            <img src="https://raw.githubusercontent.com/Worth-Doing/dropvault/main/screenshots/06-settings-general.png" alt="DropVault — Settings" loading="lazy">
-            <div class="screenshot-caption">General settings</div>
-          </div>
-          <div class="screenshot-item">
-            <img src="https://raw.githubusercontent.com/Worth-Doing/dropvault/main/screenshots/07-settings-storage.png" alt="DropVault — Storage" loading="lazy">
-            <div class="screenshot-caption">Storage settings and info</div>
-          </div>
+          <div class="feature-icon" style="background: rgba(147, 51, 234, 0.1); color: #9333ea;">&#128187;</div>
+          <h3>macOS Native Integration</h3>
+          <p>Shell commands and AppleScript for deep macOS automation. Permission status panel. 33 Swift files, 11 modules, zero dependencies.</p>
         </div>
       </div>
     </div>
@@ -161,7 +128,7 @@
         <div class="install-step">
           <div class="install-step-num">1</div>
           <h4>Download</h4>
-          <p>Get DropVault.dmg from Releases</p>
+          <p>Get WorthDoing.dmg from Releases</p>
         </div>
         <div class="install-step">
           <div class="install-step-num">2</div>
@@ -171,19 +138,19 @@
         <div class="install-step">
           <div class="install-step-num">3</div>
           <h4>Drag to Apps</h4>
-          <p>Move DropVault.app to Applications</p>
+          <p>Move the app to Applications</p>
         </div>
         <div class="install-step">
           <div class="install-step-num">4</div>
-          <h4>Launch</h4>
-          <p>Opens in menu bar automatically</p>
+          <h4>Grant Permissions</h4>
+          <p>Allow Accessibility and Automation</p>
         </div>
       </div>
       <div class="requirements">
         <span class="req-badge">&#10003; Apple Notarized</span>
         <span class="req-badge">&#10003; Code Signed</span>
         <span class="req-badge">&#10003; macOS 14+</span>
-        <span class="req-badge">&#10003; Local-First Privacy</span>
+        <span class="req-badge">&#10003; Zero Dependencies</span>
       </div>
     </div>
   </section>
@@ -202,9 +169,9 @@
         <a href="pulsedesk.html" class="other-app-link"><img src="https://raw.githubusercontent.com/Worth-Doing/pulsedesk/main/Assets/PulseDesk-Logo.svg" alt="PulseDesk" class="other-app-icon-img"> PulseDesk</a>
         <a href="gridforge.html" class="other-app-link"><img src="https://raw.githubusercontent.com/Worth-Doing/GridForge/main/Assets/GridForge-Logo.svg" alt="GridForge" class="other-app-icon-img"> GridForge</a>
         <a href="flowboard.html" class="other-app-link"><img src="https://raw.githubusercontent.com/Worth-Doing/FlowBoard/main/Assets/logo.svg" alt="FlowBoard" class="other-app-icon-img"> FlowBoard</a>
+        <a href="dropvault.html" class="other-app-link"><img src="https://raw.githubusercontent.com/Worth-Doing/dropvault/main/Resources/AppIcon.svg" alt="DropVault" class="other-app-icon-img"> DropVault</a>
         <a href="osvault.html" class="other-app-link"><img src="https://raw.githubusercontent.com/Worth-Doing/OSVault/main/Assets/AppIcon.svg" alt="OSVault" class="other-app-icon-img"> OSVault</a>
-        <a href="openrouter-playground.html" class="other-app-link"><img src="https://raw.githubusercontent.com/Worth-Doing/openrouter-playground/main/assets/AppIcon.svg" alt="OR Playground" class="other-app-icon-img"> OR Playground</a>
-        <a href="brain-os.html" class="other-app-link"><img src="https://raw.githubusercontent.com/Worth-Doing/brain-os/main/Resources/AppIcon.svg" alt="Brain OS" class="other-app-icon-img"> Brain OS</a>
+        <a href="openrouter-playground.html" class="other-app-link"><img src="https://raw.githubusercontent.com/Worth-Doing/openrouter-playground/main/assets/AppIcon.svg" alt="OpenRouter Playground" class="other-app-icon-img"> OR Playground</a>
       </div>
     </div>
   </section>
