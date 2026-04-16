@@ -13,7 +13,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Apps-12-6366f1?style=flat-square" alt="12 Apps" />
+  <img src="https://img.shields.io/badge/Apps-14-6366f1?style=flat-square" alt="14 Apps" />
   <img src="https://img.shields.io/badge/Platform-macOS%2014+-000000?style=flat-square&logo=apple&logoColor=white" alt="macOS" />
   <img src="https://img.shields.io/badge/Language-Swift%20%2B%20SwiftUI-F05138?style=flat-square&logo=swift&logoColor=white" alt="Swift" />
   <img src="https://img.shields.io/badge/Notarized-Apple-000000?style=flat-square&logo=apple&logoColor=white" alt="Notarized" />
@@ -32,7 +32,7 @@
 
 ## What is This?
 
-This is the official **Worth Doing app showcase and download portal** — a static website that presents all 12 native macOS applications built by [Worth Doing](https://github.com/Worth-Doing), with direct DMG download links, feature descriptions, screenshots, and installation instructions.
+This is the official **Worth Doing app showcase and download portal** — a static website that presents all 14 native macOS applications built by [Worth Doing](https://github.com/Worth-Doing), with direct DMG download links, feature descriptions, screenshots, and installation instructions.
 
 The site is built with **pure HTML, CSS, and JavaScript** — no framework, no build step, no dependencies. It deploys via **GitHub Pages** directly from the `main` branch.
 
@@ -51,6 +51,7 @@ The site is built with **pure HTML, CSS, and JavaScript** — no framework, no b
 | [**Claw Studio**](https://github.com/Worth-Doing/claw-studio) | Agent operating system — visual multi-agent orchestration wrapping OpenClaw. 835+ models, 52 skills, 22 channels. | v1.0.0 | [DMG](https://github.com/Worth-Doing/claw-studio/releases/download/v1.0.0/ClawStudio.dmg) |
 | [**OpenRouter Playground**](https://github.com/Worth-Doing/openrouter-playground) | Native OpenRouter experimentation studio — multi-turn chat, model catalog, streaming, side-by-side comparison, response inspector. | v1.0.0 | [DMG](https://github.com/Worth-Doing/openrouter-playground/releases/download/v1.0.0/OpenRouter.Playground.dmg) |
 | [**Brain OS**](https://github.com/Worth-Doing/brain-os) | AI desktop agent — natural language task execution via Shell & AppleScript with OpenRouter LLMs. Plan, approve, execute. | v1.0.0 | [DMG](https://github.com/Worth-Doing/brain-os/releases/download/v1.0.0/WorthDoing.dmg) |
+| [**AutoScholar**](https://github.com/Worth-Doing/autoscholars) | Autonomous scientific research engine — 7 AI agents, 4,018 research prompts, local LaTeX compilation, Python analysis, peer review. | v3.0.0 | [DMG](https://github.com/Worth-Doing/autoscholars/releases/download/v3.0.0/AutoScholar-3.0.0.dmg) |
 
 ### Productivity & Utilities
 
@@ -61,6 +62,7 @@ The site is built with **pure HTML, CSS, and JavaScript** — no framework, no b
 | [**FlowBoard**](https://github.com/Worth-Doing/FlowBoard) | Kanban & flow map — 4 board views (Kanban, Flow Map, Calendar, Table), drag-and-drop, unlimited boards. | v1.0.0 | [DMG](https://github.com/Worth-Doing/FlowBoard/releases/download/v1.0.0/FlowBoard-1.0.0.dmg) |
 | [**DropVault**](https://github.com/Worth-Doing/dropvault) | Clipboard & drag-and-drop command center — menu bar extra, shelves, tagging, grid/list views, export/import. | v2.0.0 | [DMG](https://github.com/Worth-Doing/dropvault/releases/download/v2.0.0/DropVault-2.0.0.dmg) |
 | [**OSVault**](https://github.com/Worth-Doing/OSVault) | Secure password vault — AES-256-GCM encryption, PBKDF2-SHA256 (600K iterations), password generator, auto-lock. | v2.0.0 | [DMG](https://github.com/Worth-Doing/OSVault/releases/download/v2.0.0/OSVault-2.0.0.dmg) |
+| [**Morphix**](https://github.com/Worth-Doing/morphix) | Local-first file conversion studio — Markdown/HTML/URL → PDF, image format conversion (HEIC, PNG, JPG, WebP, TIFF). Capability-driven adapters. | v0.1.0 | [DMG](https://github.com/Worth-Doing/morphix/releases/download/v0.1.0/Morphix-0.1.0.dmg) |
 
 > Every app is **100% native Swift + SwiftUI**, **code-signed** with Apple Developer ID, and **notarized** by Apple. No Electron, no WebViews, no Gatekeeper warnings.
 
@@ -85,7 +87,7 @@ The site is built with **pure HTML, CSS, and JavaScript** — no framework, no b
 
 ```
 wd-landing/
-├── index.html              Main landing page — hero, 12 app cards, 8 project cards
+├── index.html              Main landing page — hero, 14 app cards, 8 project cards
 ├── css/
 │   └── style.css           Glass design system (glassmorphism, dark theme, animations)
 ├── js/
@@ -102,7 +104,9 @@ wd-landing/
     ├── dropvault.html       DropVault — clipboard manager
     ├── osvault.html         OSVault — password vault
     ├── openrouter-playground.html  OpenRouter Playground — OpenRouter studio
-    └── brain-os.html        Brain OS — AI desktop agent
+    ├── brain-os.html        Brain OS — AI desktop agent
+    ├── autoscholars.html    AutoScholar — autonomous research engine
+    └── morphix.html         Morphix — local-first file conversion studio
 ```
 
 ### Each App Page Includes
